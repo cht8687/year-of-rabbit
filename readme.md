@@ -1,37 +1,37 @@
-# year-of-rat [![Build Status](https://travis-ci.org/cht8687/year-of-rat.svg?branch=master)](https://travis-ci.org/cht8687/year-of-rat)
+# year-of-rabbit [![Build Status](https://travis-ci.org/cht8687/year-of-rabbit.svg?branch=master)](https://travis-ci.org/cht8687/year-of-rabbit)
 
-> Check if is year of Rat
+> Check if is year of Rabbit
 
 ## Install
 
 ```
-$ npm install --save year-of-rat
+$ npm install --save year-of-rabbit
 ```
 
 ## Usage
 
 ```js
 
-const yearOfRat = require('year-of-rat');
+const yearOfRabbit = require('year-of-rabbit');
 
-yearOfRat(1984);
+yearOfRabbit(1984);
 // true
 
-yearOfRat(1985);
+yearOfRabbit(1985);
 // false
 
 
 ```
 ## API
 
-### yearOfRat([year])
+### yearOfRabbit([year])
 
 #### year
 
 Type: `number`  
 Default: current year
 
-### yearOfRat([date])
+### yearOfRabbit([date])
 
 #### date
 
